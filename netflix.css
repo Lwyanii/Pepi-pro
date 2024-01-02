@@ -1,0 +1,507 @@
+body {
+    width: 100%;
+    height: 1125px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bg2.png');
+}
+
+
+.container {
+    display: flex;
+}
+
+
+img {
+    position: absolute;
+}
+
+
+#languages {
+    position: absolute;
+    font-size: 16px;
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    border-color: #5c636a;
+    border-radius: 5px;
+    padding-left: 10px;
+
+
+}
+
+
+#Sign_in {
+    position: absolute;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+#Sign_in:hover {
+    background-color: rgb(210, 10, 10);
+    cursor: pointer;
+
+}
+
+.main {
+    display: flex;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+
+h1, #item1, #item2 {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.input-main {
+    position: relative;
+}
+
+#main_login {
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 4px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+#get_started:hover {
+    background-color: rgb(210, 10, 10);
+    cursor: pointer;
+}
+
+
+#get_started {
+    position: absolute;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 4px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Xs Screen (600px and under) */
+
+@media only screen and (max-width: 600px ) {
+    img {
+        left: 21px;
+        top: 24px;
+        height: 31px;
+        width: 95px;
+    }
+
+    #languages {
+        top: 28px;
+        left: 62vw;
+        height: 31px;
+        width: 100px;
+    }
+
+    #Sign_in {
+        left: 82.5vw;
+        height: 30px;
+        width: 75px;
+        top: 28px;
+    }
+
+    h1 {
+        font-size: 35px;
+        left: 90px;
+        top: 200px;
+    }
+
+    #item1 {
+        font-size: 18px;
+        left: 125px;
+        top: 315px;
+    }
+
+    #item2 {
+        font-size: 18px;
+        left: 7px;
+        top: 370px;
+    }
+
+    #main_login {
+        height: 55px;
+        width: 448px;
+        left: 25px;
+        top: 435px;
+    }
+
+   #get_started {
+       height: 50px;
+       width: 205px;
+       top: 510px;
+       left: 150px;
+       font-size: 18px;
+   }
+
+}
+
+/* S screens (600px and up) */
+
+@media only screen and (min-width: 600px) {
+    img {
+        left: 35px;
+        top: 24px;
+        height: 31px;
+        width: 95px;
+    }
+
+    #languages {
+        top: 28px;
+        left: 65dvw;
+        height: 31px;
+        width: 18vw;
+    }
+
+    #Sign_in {
+        left: 84.5vw;
+        height: 30px;
+        width: 75px;
+        top: 28px;
+    }
+
+    h1 {
+        font-size: 45px;
+        left: 18vw;
+        top: 170px;
+    }
+
+    #item1 {
+        font-size: 18px;
+        left: 30vw;
+        top: 315px;
+    }
+
+    #item2 {
+        font-size: 18px;
+        left: 10vw;
+        top: 370px;
+    }
+
+    #main_login {
+        height: 55px;
+        width: 46vw;
+        left: 9vw;
+        top: 425px;
+    }
+
+    #get_started {
+        height: 58px;
+        width: 205px;
+        top: 425px;
+        left: 58.5vw;
+        font-size: 18px;
+    }
+
+
+}
+
+/* M Screens (768px and up) */
+
+@media only screen and (min-width: 768px) {
+    img {
+        left: 30px;
+        top: 24px;
+        height: 31px;
+        width: 95px;
+    }
+
+    #languages {
+        top: 28px;
+        left: 69vw;
+        height: 30px;
+        width: 130px;
+    }
+
+    #Sign_in {
+        left: 86.5vw;
+        height: 30px;
+        width: 75px;
+        top: 28px;
+    }
+
+    h1 {
+        font-size: 45px;
+        left: 23vw;
+        top: 170px;
+    }
+
+    #item1 {
+        font-size: 18px;
+        left: 33vw;
+        top: 315px;
+    }
+
+    #item2 {
+        font-size: 18px;
+        left: 16vw;
+        top: 370px;
+    }
+
+    #main_login {
+        height: 55px;
+        width: 43vw;
+        padding-left: 15px;
+        font-size: 17px;
+        left: 11.5vw;
+        top: 420px;
+    }
+
+    #get_started {
+        height: 59px;
+        width: 205px;
+        font-size: 18px;
+        top: 420px;
+        left: 57vw;
+    }
+
+}
+
+/* L screens (992px and up) */
+
+@media only screen and (min-width: 992px) {
+    img {
+        left: 29px;
+        top: 18px;
+        height: 51px;
+        width: 155px;
+    }
+
+    #languages {
+        top: 28px;
+        left: 75vw;
+        height: 31px;
+        width: 130px;
+    }
+
+    #Sign_in {
+        left: 88.5vw;
+        height: 30px;
+        width: 75px;
+        top: 28px;
+    }
+
+    h1 {
+        font-size: 60px;
+        left: 19vw;
+        top: 170px;
+    }
+
+    #item1 {
+        font-size: 22px;
+        left: 32vw;
+        top: 355px;
+    }
+
+    #item2 {
+        font-size: 18px;
+        left: 20vw;
+        top: 420px;
+    }
+
+    #main_login {
+        height: 55px;
+        width: 32.5vw;
+        left: 19vw;
+        top: 470px;
+    }
+
+    #get_started {
+        height: 59px;
+        width: 205px;
+        font-size: 18px;
+        top: 470px;
+        left: 54vw;
+    }
+}
+
+/* XL screen (1200px and up) */
+
+@media only screen and (min-width: 1100px) {
+    img {
+        left: 70px;
+        top: 18px;
+        height: 51px;
+        width: 155px;
+    }
+
+    #languages {
+        top: 28px;
+        left: 77vw;
+        height: 31px;
+        width: 130px;
+    }
+
+    #Sign_in {
+        left: 88.5vw;
+        height: 30px;
+        width: 75px;
+        top: 28px;
+    }
+
+    h1 {
+        font-size: 60px;
+        left: 25vw;
+        top: 170px;
+    }
+
+    #item1 {
+        font-size: 22px;
+        left: 38vw;
+        top: 355px;
+    }
+
+    #item2 {
+        font-size: 18px;
+        left: 28vw;
+        top: 420px;
+    }
+
+    #main_login {
+        height: 55px;
+        width: 45vw;
+        left: 20vw;
+        top: 470px;
+    }
+
+    #get_started {
+        height: 59px;
+        width: 205px;
+        font-size: 18px;
+        top: 470px;
+        left: 67vw;
+    }
+}
+
+/* XXL screen (1312px and up) */
+
+@media only screen and (min-width: 1442px) {
+        img {
+            left: 70px;
+            top: 18px;
+            height: 51px;
+            width: 155px;
+        }
+
+        #languages {
+            top: 28px;
+            left: 79vw;
+            height: 31px;
+            width: 130px;
+        }
+
+        #Sign_in {
+            left: 88.5vw;
+            height: 30px;
+            width: 75px;
+            top: 28px;
+        }
+
+        h1 {
+            font-size: 60px;
+            left: 25vw;
+            top: 170px;
+        }
+
+        #item1 {
+            font-size: 22px;
+            left: 35vw;
+            top: 355px;
+        }
+
+        #item2 {
+            font-size: 18px;
+            left: 28vw;
+            top: 420px;
+        }
+
+        #main_login {
+            height: 55px;
+            width: 34.5vw;
+            left: 20vw;
+            top: 470px;
+        }
+
+        #get_started {
+            height: 59px;
+            width: 205px;
+            font-size: 18px;
+            top: 470px;
+            left: 56vw;
+        }
+    }
+
+/* Largest screens (1560px and up) */
+
+@media only screen and (min-width: 1560px) {
+    img {
+        left: 70px;
+        top: 18px;
+        height: 51px;
+        width: 155px;
+    }
+
+    #languages {
+        top: 28px;
+        left: 80vw;
+        height: 31px;
+        width: 130px;
+    }
+
+    #Sign_in {
+        left: 88.5vw;
+        height: 30px;
+        width: 75px;
+        top: 28px;
+    }
+
+    h1 {
+        font-size: 60px;
+        left: 32vw;
+        top: 170px;
+    }
+
+    #item1 {
+        font-size: 22px;
+        left: 39vw;
+        top: 355px;
+    }
+
+    #item2 {
+        font-size: 18px;
+        left: 32vw;
+        top: 420px;
+    }
+
+    #main_login {
+        height: 55px;
+        width: 39.5vw;
+        left: 21vw;
+        top: 470px;
+    }
+
+    #get_started {
+        height: 59px;
+        width: 205px;
+        font-size: 18px;
+        top: 470px;
+        left: 62vw;
+    }
+}

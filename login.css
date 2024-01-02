@@ -1,0 +1,221 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bg2.png');
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    position: absolute;
+    height: 55px;
+    left: 35px;
+    top: 20px;
+}
+
+/* Login Box Code */
+
+.login {
+    position: absolute;
+    height: 650px;
+    width: 425px;
+    border-radius: 4px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    left: 650px;
+    top: 100px;
+}
+
+
+h1 {
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+    left: 55px;
+    top: 40px;
+}
+
+#email {
+    position: absolute;
+    height: 45px;
+    width: 300px;
+    border: none;
+    background-color: rgb(50, 50, 50);
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 4px 4px 4px 15px;
+    top: 130px;
+    left: 55px;
+}
+
+#password {
+    position: absolute;
+    height: 45px;
+    width: 300px;
+    border: none;
+    background-color: rgb(50, 50, 50);
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 4px 4px 4px 15px;
+    top: 200px;
+    left: 55px;
+}
+
+button {
+    position: absolute;
+    height: 50px;
+    width: 320px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(240, 0, 0);
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    top: 295px;
+    left: 55px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#check {
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    left: 52px;
+    top: 359px;
+    accent-color: ghostwhite;
+}
+
+
+p {
+    position: relative;
+    color: rgb(200, 200, 200);
+    font-family: Helvetica,sans-serif;
+    font-size: 14px;
+    left: 80px;
+    top: 349px;
+}
+
+#nh {
+    position: absolute;
+    left: 285px;
+}
+
+#nh:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#ft1 {
+    position: relative;
+    color: #5c636a;
+    top: 380px;
+    left: 55px;
+    font-size: 17px;
+}
+
+#ft2 {
+    position: relative;
+    color: #5c636a;
+    top: 380px;
+    left: 55px;
+    font-size: 14px;
+}
+
+#sp1 {
+    color: white;
+}
+
+#sp1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#ft3 {
+    position: relative;
+    color: blue;
+    left: 55px;
+    top: 375px;
+}
+
+#ft3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Footer Box Code */
+
+footer {
+    display: flex;
+    position: absolute;
+    border: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    top: 850px;
+    width: 100%;
+    height: 275px;
+    left: 0;
+
+
+}
+
+#questions {
+    position: absolute;
+    top: 16px;
+    font-size: 16px;
+    left: 380px;
+    color: #5c636a;
+
+}
+
+#sp2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#it1, #it2, #it3, #it4 {
+    position: absolute;
+    color: #5c636a;
+    top: 70px;
+}
+
+#it5, #it6, #it7, #it8 {
+    position: absolute;
+    color: #5c636a;
+    top: 105px;
+}
+
+#it1, #it5 {
+    left: 380px;
+}
+
+#it2, #it6 {
+    left: 620px;
+}
+
+#it3, #it7 {
+    left: 850px;
+}
+
+#it4, #it8 {
+    left: 1100px;
+}
+nav p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+select {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: #5c636a;
+    left: 55px;
+    top: 190px;
+    border-radius: 2px;
+}
+
